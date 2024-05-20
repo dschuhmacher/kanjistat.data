@@ -1,0 +1,26 @@
+Package: kanjistat.data
+Title: Datasets for the kanjistat package
+Version: 0.1.0
+Date: 2024-05-20
+Authors@R:
+    c( person(given = "Dominic",
+              family = "Schuhmacher",
+              email = "dominic.schuhmacher@mathematik.uni-goettingen.de",
+              role = c("aut","cre"),
+              comment = c(ORCID = "0000-0001-7079-6313")) )
+Maintainer: Dominic Schuhmacher <dominic.schuhmacher@mathematik.uni-goettingen.de>
+Description: Kanji information in data.frame and tibble format, representations
+    and compositions in kanjivec format (derived from the kanjiVG database)
+    and precomputed distance matrices between kanji.
+URL: https://github.com/dschuhmacher/kanjistat.data
+BugReports: https://github.com/dschuhmacher/kanjistat.data/issues
+Depends: R (>= 3.5)
+Imports: utils, kanjistat
+Suggests: testthat (>= 3.0.0)
+License: CC BY-SA 4.0
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+RoxygenNote: 7.3.1
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)

@@ -1,13 +1,18 @@
 Package: kanjistat.data
 Title: Datasets for the kanjistat package
-Version: 0.1.0
-Date: 2024-05-20
+Version: 0.2.0
+Date: 2024-05-22
 Authors@R:
     c( person(given = "Dominic",
               family = "Schuhmacher",
               email = "dominic.schuhmacher@mathematik.uni-goettingen.de",
               role = c("aut","cre"),
-              comment = c(ORCID = "0000-0001-7079-6313")) )
+              comment = c(ORCID = "0000-0001-7079-6313")),
+       person(given = "Lennart",
+              family = "Finke",
+              email = "l.finke@stud.uni-goettingen.de",
+              role = "ctb",
+              comment = c(ORCID = "0009-0003-6908-314X")) )
 Maintainer: Dominic Schuhmacher <dominic.schuhmacher@mathematik.uni-goettingen.de>
 Description: Kanji information in data.frame and tibble format, representations
     and compositions in kanjivec format (derived from the kanjiVG database)

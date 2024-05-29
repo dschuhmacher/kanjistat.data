@@ -1,5 +1,9 @@
 # kanjistat.data
 
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/dschuhmacher/kanjistat.data/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dschuhmacher/kanjistat.data/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 An R package containing additional datasets for use with the [kanjistat](https://github.com/dschuhmacher/kanjistat) package.
 
 It currently contains the lists `kvecjoyo` and `kvecjinmei` of kanji in `kanjivec` format and a matrix of component-transport distances between Jōyō kanji. The datasets have been generated from the phenomonal [KanjiVG data](https://kanjivg.tagaini.net/) by Ulrich Apel by applying functions `kanjivec` and `kanjidist` in the kanjistat package.
